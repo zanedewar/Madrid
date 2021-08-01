@@ -97,9 +97,7 @@ font-size: 1.5em ;
 	float: left;
 }
 
-.footer { font-size: 50%;
-color: B3B3B3;
-}
+
 
 @-webkit-keyframes fade {
   from {opacity: .4}
