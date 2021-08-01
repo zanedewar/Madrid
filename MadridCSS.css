@@ -19,6 +19,12 @@ float:right;
   display: none;
 }
 
+body {font-family:Georgia, serif;}
+
+h1 {font-family:Lucida, serif;
+font-size:1.5em
+}
+h2 {font-family:Lucida, serif;}
 
 .prev, .next {
   cursor: pointer;
@@ -91,6 +97,9 @@ float:right;
 }
 header {
 	float: left;
+}
+
+footer{ font-size: .5em;
 }
 
 @-webkit-keyframes fade {
