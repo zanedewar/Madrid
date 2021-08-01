@@ -2,7 +2,7 @@
 <html>
   <head>
   <link rel="stylesheet" href="MadridCSS.css">
-  <link rel="javascript" href="Slideshow_script.js">
+  
   <meta charset="utf-8">
     <title>Madrid, Spain</title>
 	</head>
@@ -52,6 +52,34 @@
    <span class="dot" onclick="currentSlide(4)"></span>
 </div>
 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
 
  <section id="interesting_facts"><h2 class="tab">Interesting Facts</h2>
  <p>Madrid has a population of 3.4 million
