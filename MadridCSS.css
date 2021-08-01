@@ -100,6 +100,8 @@ font-size: 1.5em ;
 .footer { font-size: 50%;
 }
 
+background-color: #E01154;
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
