@@ -19,10 +19,7 @@ float:right;
   display: none;
 }
 
-.h1 {font-family:Lucida, serif;
-font-size: 1.5em ;
-}
-.h2 {font-family:Lucida, serif;}
+
 
 .prev, .next {
   cursor: pointer;
