@@ -19,12 +19,12 @@ float:right;
   display: none;
 }
 
-body {font-family:Georgia, serif;}
+.body {font-family:Georgia, serif;}
 
-h1 {font-family:Lucida, serif;
-font-size:1.5em
+.h1 {font-family:Lucida, serif;
+font-size:150%;
 }
-h2 {font-family:Lucida, serif;}
+.h2 {font-family:Lucida, serif;}
 
 .prev, .next {
   cursor: pointer;
@@ -95,11 +95,11 @@ h2 {font-family:Lucida, serif;}
   animation-name: fade;
   animation-duration: 1.5s;
 }
-header {
+.header {
 	float: left;
 }
 
-footer{ font-size: .5em;
+.footer { font-size: 50%;
 }
 
 @-webkit-keyframes fade {
