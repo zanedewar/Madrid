@@ -20,7 +20,7 @@ float:right;
 }
 
 .h1 {font-family:Lucida, serif;
-font-size:150%;
+font-size: 1.5em ;
 }
 .h2 {font-family:Lucida, serif;}
 
@@ -98,6 +98,7 @@ font-size:150%;
 }
 
 .footer { font-size: 50%;
+color: B3B3B3;
 }
 
 @-webkit-keyframes fade {
