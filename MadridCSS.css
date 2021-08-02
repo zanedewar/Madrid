@@ -23,8 +23,11 @@ float:right;
 
 .h1 {font-family:Lucida, serif;
 font-size: 1.5em ;
+-webkit-text-stroke: 2px white;
 }
-.h2 {font-family:Lucida, serif;}
+.h2 {font-family:Lucida, serif;
+-webkit-text-stroke: 2px white;
+}
 
 .prev, .next {
   cursor: pointer;
@@ -97,6 +100,7 @@ font-size: 1.5em ;
 }
 .header {
 	float: left;
+	-webkit-text-stroke: 2px white;
 }
 
 .footer { font-size: 50%;
