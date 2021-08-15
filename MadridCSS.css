@@ -1,6 +1,6 @@
 {box-sizing:border-box}
 body {font-family: Georgia, serif; margin:0;
-background-color: #EA5586;
+background-image: linear-gradient(to bottom left, #FFFFFF, #FE76BE, ##FF3FA5, E50079)
 }
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -105,8 +105,6 @@ font-size: 1.5em ;
 
 .footer { font-size: 50%;
 }
-
-background-color: #E01154;
 
 @-webkit-keyframes fade {
   from {opacity: .4}
